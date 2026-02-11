@@ -4,7 +4,8 @@
   "description": "OpenAI compatible proxy for NVIDIA NIM API",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+   "start": "node your-filename.js",
+  "deploy": "npm install --omit=dev && npm start"
   },
   "dependencies": {
     "express": "^4.18.2",
